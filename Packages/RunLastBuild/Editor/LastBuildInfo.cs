@@ -10,6 +10,9 @@ using UnityEditor.Build;
 
 namespace udonba.RunLastBuild
 {
+    /// <summary>
+    /// The ScriptableObject to save build-output and run it from MenuItem.
+    /// </summary>
     public class LastBuildInfo : ScriptableObject, IPostprocessBuildWithReport
     {
         private const string AssetPath = "Packages/com.udonba.runlastbuild/Editor/LastBuildInfo.asset";
@@ -29,11 +32,10 @@ namespace udonba.RunLastBuild
         void IPostprocessBuildWithReport.OnPostprocessBuild(BuildReport report)
         {
             SaveOutputPath(report.summary.outputPath);
-            Debug.Log(report.summary.outputPath);
+            //Debug.Log(report.summary.outputPath);
         }
 
         #endregion
-
 
         #region static member
 
