@@ -1,7 +1,7 @@
 # Unity-RunLastBuild
 Unity-RunLastBuild is save build output path and run it from unity-editor.
 
-- Automatically records output paths in build post-process.
+- Automatically records output path in build post-process.
 - Last recorded build can be executed from the editor menu.
 
 # UPM URL
