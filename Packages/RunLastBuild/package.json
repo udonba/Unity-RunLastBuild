@@ -1,0 +1,16 @@
+{
+  "name": "com.udonba.runlastbuild",
+  "displayName": "Run Last Build",
+  "version": "1.0.0",
+  "description": "Unity-RunLastBuild is caching build output and execute that from unity-editor.",
+  "author": {
+    "name": "udonba",
+    "url": "https://github.com/udonba"
+  },
+  "keywords": [
+    "run",
+    "last",
+    "build"
+  ],
+  "type": "tool"
+}
