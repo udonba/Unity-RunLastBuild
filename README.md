@@ -7,6 +7,9 @@ Unity-RunLastBuild is save build output path and run it from unity-editor.
 # UPM URL
 https://github.com/udonba/Unity-RunLastBuild.git?path=Packages/RunLastBuild
 
+![image](https://user-images.githubusercontent.com/41992866/174430043-2e04f8ed-375d-450d-a4b1-2665cf27113b.png)
+
+
 # Usage
 
 `File>Run Last Build`
