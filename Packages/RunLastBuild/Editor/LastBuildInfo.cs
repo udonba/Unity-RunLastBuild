@@ -1,11 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using System;
 using System.IO;
 using UnityEditor.Build.Reporting;
-using System.Text;
 using UnityEditor.Build;
 
 namespace udonba.RunLastBuild
@@ -102,6 +98,5 @@ namespace udonba.RunLastBuild
                     break;
             }
         }
-
     }
 }
